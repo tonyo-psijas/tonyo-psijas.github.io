@@ -1,0 +1,62 @@
+* {
+    font-family: "M PLUS 1", sans-serif;
+}
+
+nav {
+    background-color: #211F2A;
+}
+
+a.activo {
+    color: #00E18E;
+}
+
+a.inactivo {
+    color: #646075;
+}
+
+.row {
+    align-items: center;
+}
+
+.hero {
+    background-color: #211F2A;
+    color: white;
+}
+
+hr {
+    height: 3px;
+    background-color: #00E18E;
+    border: none;
+    opacity: 1;
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border-radius: 36px;
+}
+
+button.hablemos {
+    background-color: #00E18E;
+}
+
+button.hablemos a {
+    color: #211F2A;
+}
+
+button.mi-cv {
+    background-color: #211F2A;
+    border: solid white 2px;
+}
+
+button.mi-cv a {
+    color: #00E18E;
+}
+
+.habilidades {
+    background-color: #19171F;
+    color: #646075;
+}
