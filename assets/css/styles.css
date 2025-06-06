@@ -14,7 +14,7 @@ a.inactivo {
     color: #646075;
 }
 
-.row {
+.hero .row {
     align-items: center;
 }
 
@@ -61,7 +61,7 @@ button.mi-cv a {
     color: #646075;
 }
 
-.servicios, .herramientas {
+.servicios, .herramientas, .contacto {
     background-color: #211F2A;
 }
 
@@ -95,7 +95,7 @@ button.ver-mas a {
     color: #211F2A;
 }
 
-.experiencia {
+.experiencia, .portafolio {
     background-color: #19171F;
 }
 
@@ -120,4 +120,82 @@ button.ver-mas a {
 
 .card-herramienta {
     border-radius: 200px;
+}
+
+.portafolio .card {
+    background-color: #211F2A;
+    color: white;
+}
+
+.imagen-portafolio-1, .imagen-portafolio-2, .imagen-portafolio-3, .imagen-portafolio-4 {
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.imagen-portafolio-1 {
+    background-image: url("../images/folou.png");
+}
+
+.imagen-portafolio-2 {
+    background-image: url("../images/museo-app.png");
+}
+
+.imagen-portafolio-3 {
+    background-image: url("../images/cduc.png");
+}
+
+.imagen-portafolio-4 {
+    background-image: url("../images/unoia.png");
+}
+
+.etiqueta {
+    background-color: #00E18E;
+    color: #19171F;
+}
+
+.proyecto a {
+    color: #00E18E;
+}
+
+.proyecto i {
+    color: white;
+}
+
+.contacto .logo-antonio-contacto {
+    width: 200px;
+}
+
+.contacto{
+    color: white;
+}
+
+.contacto p {
+    color: #9D99B0;
+}
+
+.contacto ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacto i {
+    color: #00E18E;
+}
+
+.contacto a {
+    color: white;
+}
+
+input, textarea {
+    border: solid #383740 2px !important;
+    background-color: #2E2C39 !important;
+    color: white !important;
+}
+
+footer {
+    background-color: #19171F;
+    color: white;
 }
