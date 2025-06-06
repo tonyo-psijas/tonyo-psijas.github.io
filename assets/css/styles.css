@@ -60,3 +60,37 @@ button.mi-cv a {
     background-color: #19171F;
     color: #646075;
 }
+
+.servicios {
+    background-color: #211F2A;
+}
+
+.servicios .card {
+    background-color: #2E2C39;
+    color: white;
+}
+
+.card {
+    border: #383740 solid 2px;
+    border-radius: 20px;
+}
+
+.card p {
+    color: #9D99B0;
+}
+
+.servicios .card img {
+    width: 64px;
+}
+
+h2 {
+    color: white;
+}
+
+button.ver-mas {
+    background-color: #00E18E;
+}
+
+button.ver-mas a {
+    color: #211F2A
+}
