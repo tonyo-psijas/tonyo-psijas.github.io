@@ -49,11 +49,11 @@ button.hablemos a {
 
 button.mi-cv {
     background-color: #211F2A;
-    border: solid white 2px;
+    border: solid #00E18E 2px;
 }
 
 button.mi-cv a {
-    color: #00E18E;
+    color: white;
 }
 
 .habilidades {
@@ -61,7 +61,7 @@ button.mi-cv a {
     color: #646075;
 }
 
-.servicios {
+.servicios, .herramientas {
     background-color: #211F2A;
 }
 
@@ -92,5 +92,32 @@ button.ver-mas {
 }
 
 button.ver-mas a {
-    color: #211F2A
+    color: #211F2A;
+}
+
+.experiencia {
+    background-color: #19171F;
+}
+
+.experiencia .card {
+    background-color: #211F2A;
+    color: white;
+}
+
+.experiencia .card img {
+    width: 60px;
+}
+
+.exp-item {
+    background-color: #19171F;
+    border-radius: 16px;
+}
+
+.herramientas .card {
+    background-color: #2E2C39;
+    color: white;
+}
+
+.card-herramienta {
+    border-radius: 200px;
 }
