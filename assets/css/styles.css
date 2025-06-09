@@ -18,7 +18,7 @@ a.inactivo {
     align-items: center;
 }
 
-.hero {
+.hero, .hero-portafolio, .portafolio-2 {
     background-color: #211F2A;
     color: white;
 }
@@ -55,6 +55,10 @@ button.mi-cv {
 button.mi-cv a {
     color: white;
 }
+
+.breadcrumb .active {
+    color: #9f98bd;
+} 
 
 .habilidades {
     background-color: #19171F;
@@ -197,5 +201,14 @@ input, textarea {
 
 footer {
     background-color: #19171F;
+    color: white;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #646075;
+}
+
+.card-portafolio-2 {
+    background-color: #2E2C39;
     color: white;
 }
